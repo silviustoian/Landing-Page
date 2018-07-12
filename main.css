@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+#img-div{
+    
+    width: 60%;
+    display: inline-block;
+}
+
+#header-img{
+    max-width: 30%;
+}
+header{
+    
+    
+}
+
+nav {
+    display: inline-block;
+
+}
+
+nav a{
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+
