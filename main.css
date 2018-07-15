@@ -67,9 +67,15 @@ nav a{
     margin-top:17px;
 }
 
+#video-div{
+    width: 40%;
+    height: 45vh;
+    margin: 0 auto;
+    
+}
 iframe{
-    margin-left: 32%;
-    margin-top: 20px;
+    width: 90%;
+    height: 80%;
 }
 
 .price-box{
@@ -79,6 +85,7 @@ iframe{
     border:solid;
     border-width: 1px;
     text-align: center;
+    font-size:1vw;
     
     
     
@@ -98,6 +105,7 @@ iframe{
     background-color: yellow;
     border: 0;
     font-weight: bold;
+    font-size: 1vw;
 }
 
 #contact{
@@ -106,3 +114,12 @@ iframe{
     height: 20%;
     text-align: right;
 }
+
+
+@media screen and (max-width: 600px) {
+    .price-box {
+      font-size: 1vw;
+      display:block;
+      margin: 0 auto;
+    }
+  }
