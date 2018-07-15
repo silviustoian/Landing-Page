@@ -118,10 +118,10 @@ iframe{
 
 @media screen and (max-width: 600px) {
     .price-box {
-      font-size: 2vw;
+      font-size: 3vw;
       
       margin: 0 auto;
-      height: 10vh;
+      height: 20vh;
 
     }
   }
